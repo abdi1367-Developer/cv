@@ -39,7 +39,7 @@
         body::before {
             content: '';
             position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
+            top: 0; left:0; width: 100vw; height: 100vh;
             background-image: 
                 linear-gradient(rgba(8, 145, 178, 0.03) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(8, 145, 178, 0.03) 1px, transparent 1px);
@@ -156,7 +156,8 @@
                 <div id="about" class="grid md:grid-cols-3 gap-12 items-center">
                     <div class="md:col-span-1 flex justify-center">
                         <div class="w-64 h-64 rounded-full p-2 bg-gradient-to-br from-cyan-500 to-blue-600 shadow-xl">
-                            <img src="https://z-cdn-media.chatglm.cn/files/a1a1b7c9-347d-42df-b205-740b4f507282.png?auth_key=1884539150-5c90315ac9e445909b12e355c02af8be-0-eb343fac88b5bca9b5dcf0841a835bf6" alt="زهرا سیف‌اللهی" class="w-full h-full rounded-full object-cover bg-white">
+                            <!-- Profile Image Source Set to Local File -->
+                            <img src="pic.png" alt="زهرا سیف‌اللهی" class="w-full h-full rounded-full object-cover bg-white">
                         </div>
                     </div>
                     <div class="md:col-span-2">
@@ -169,7 +170,8 @@
                             <a href="#contact" class="btn-primary bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-8 rounded-xl flex items-center gap-2 shadow-lg shadow-cyan-500/30">
                                 <i class="fas fa-paper-plane"></i> اطلاعات تماس
                             </a>
-                            <a href="./Zahra-Seifollahi-CV.pdf" download class="btn-secondary bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-white font-bold py-3 px-8 rounded-xl flex items-center gap-2">
+                            <!-- CV Download Link Set to Local File -->
+                            <a href="Zahra Seifollahi-CV.pdf" download class="btn-secondary bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-white font-bold py-3 px-8 rounded-xl flex items-center gap-2">
                                 دانلود رزومه <i class="fas fa-download"></i>
                             </a>
                         </div>
@@ -452,12 +454,14 @@
                         <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-6">کتب تالیف شده</h3>
                         <div class="grid grid-cols-2 lg:grid-cols-1 gap-6">
                             <div class="card-hover glass-card p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col items-center text-center">
-                                <img src="https://z-cdn-media.chatglm.cn/files/5435ddf0-0e3c-46aa-80b5-fee23c3a198f.jpeg?auth_key=1884539150-57a412eb9b94481ca769887e6f3221d7-0-d0846c01e34c233a182df1831f62f603" alt="کتاب آشنایی با مهندسی شیمی" class="w-32 lg:w-40 h-44 lg:h-56 object-cover rounded-lg shadow-md mb-4">
+                                <!-- Book 1 Image Source Set to Local File -->
+                                <img src="book1.jpeg" alt="کتاب آشنایی با مهندسی شیمی" class="w-32 lg:w-40 h-44 lg:h-56 object-cover rounded-lg shadow-md mb-4">
                                 <h4 class="font-bold text-slate-800 dark:text-white text-sm lg:text-base">آشنایی با مهندسی شیمی</h4>
                                 <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">انتشارات دانشگاه علم و صنعت ایران (۱۴۰۰)</p>
                             </div>
                             <div class="card-hover glass-card p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col items-center text-center">
-                                <img src="https://z-cdn-media.chatglm.cn/files/3b58f932-e9af-407c-94de-3033b86d1441.jpeg?auth_key=1884539150-b6d320a152b24422afca2b498532d24c-0-e4666d7abcbdc39d5ca9d8ee1f3880b8" alt="کتاب فرایندهای الکتروسینتیک" class="w-32 lg:w-40 h-44 lg:h-56 object-cover rounded-lg shadow-md mb-4">
+                                <!-- Book 2 Image Source Set to Local File -->
+                                <img src="book2.jpeg" alt="کتاب فرایندهای الکتروسینتیک" class="w-32 lg:w-40 h-44 lg:h-56 object-cover rounded-lg shadow-md mb-4">
                                 <h4 class="font-bold text-slate-800 dark:text-white text-sm lg:text-base">فرایندهای الکتروسینتیک</h4>
                                 <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">انتشارات دانشگاه علم و صنعت ایران (۱۴۰۲)</p>
                             </div>
@@ -548,15 +552,16 @@
                                     <p class="text-white font-bold text-base" dir="ltr">zahra.seifollahi@gmail.com</p>
                                 </div>
                             </a>
-                            <div class="flex items-center gap-4 bg-white/10 backdrop-blur-sm p-5 rounded-xl border border-white/10">
+                            <!-- LinkedIn Link Updated -->
+                            <a href="https://www.linkedin.com/in/zahra-seifollahi-208305b1" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm p-5 rounded-xl transition-all duration-300 border border-white/10">
                                 <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center text-white text-xl">
                                     <i class="fab fa-linkedin-in"></i>
                                 </div>
                                 <div>
                                     <p class="text-xs text-cyan-100">صفحه لینکدین</p>
-                                    <p class="text-white font-bold text-lg">لینک صفحه لینکدین</p>
+                                    <p class="text-white font-bold text-lg">zahra-seifollahi</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -648,7 +653,6 @@
 
             function updateCanvasColors() {
                 const isDark = document.documentElement.classList.contains('dark');
-                // Perfectly balanced opacity: subtle but visible watermark
                 if (!isDark) {
                     colorScheme.equipment = 'rgba(8, 145, 178, 0.25)'; 
                     colorScheme.line = 'rgba(8, 145, 178, 0.12)';     
@@ -686,11 +690,9 @@
                     let x = this.x, y = this.y;
                     
                     if (this.type === 'column') {
-                        // Distillation Column
                         let colW = s * 1.2;
                         let colH = s * 2.5;
                         ctx.strokeRect(x - colW/2, y - colH/2, colW, colH);
-                        // Trays
                         ctx.beginPath();
                         for(let i=1; i<4; i++) {
                             ctx.moveTo(x - colW/2, y - colH/2 + (colH/4)*i);
@@ -698,11 +700,9 @@
                         }
                         ctx.stroke();
                     } else if (this.type === 'exchanger') {
-                        // Heat Exchanger
                         ctx.beginPath();
                         ctx.arc(x, y, s, 0, Math.PI * 2);
                         ctx.stroke();
-                        // Zigzag inside
                         ctx.beginPath();
                         ctx.moveTo(x - s*0.7, y);
                         ctx.lineTo(x - s*0.3, y - s*0.4);
@@ -710,7 +710,6 @@
                         ctx.lineTo(x + s*0.7, y);
                         ctx.stroke();
                     } else if (this.type === 'vessel') {
-                        // Vertical Vessel
                         let vW = s * 1.5;
                         let vH = s * 2;
                         ctx.beginPath();
@@ -722,7 +721,6 @@
                         ctx.ellipse(x, y + vH/2 - vW/4, vW/2, vW/4, 0, 0, Math.PI * 2);
                         ctx.stroke();
                     } else if (this.type === 'pump') {
-                        // Pump
                         ctx.beginPath();
                         ctx.arc(x, y, s, 0, Math.PI * 2);
                         ctx.stroke();
@@ -733,7 +731,6 @@
                         ctx.closePath();
                         ctx.stroke();
                     } else if (this.type === 'valve') {
-                        // Valve
                         ctx.beginPath();
                         ctx.moveTo(x - s * 0.8, y - s * 0.6);
                         ctx.lineTo(x + s * 0.8, y - s * 0.6);
